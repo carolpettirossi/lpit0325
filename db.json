@@ -1,11 +1,29 @@
 {
-  "posts": [
+  "userAccount": [
     {
-      "id": 1,
-      "title": "hello carol"
-    }
+      "guid": "4e80d357-498e-4f01-bd96-a1c834c99d20",
+      "username": "dtaylor",
+      "password": "3BB12EDA3C298DB5DE25597F54D924F2E17E78A26AD8953ED8218EE682F0BBBE9021E2F3009D152C911BF1F25EC683A902714166767AFBD8E5BD0FB0124ECB8A",
+      "fbAuthToken": "UNKNOWN_EXAMPLE_VALUE",
+      "googleAuthToken": "UNKNOWN_EXAMPLE_VALUE",
+      "appleAuthToken": "UNKNOWN_EXAMPLE_VALUE",
+      "dateCreated": 1519211809934,
+      "dateLastAccessed": 1519211811670
+   }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "userProfile": [
+    {
+      "user": "4e80d357-498e-4f01-bd96-a1c834c99d20",
+      "photo": "example/file/path/for/an/image.jpg",
+      "firstName": "Drew",
+      "lastName": "Taylor",
+      "tagline": "You’ll love my food!",
+      "bio": "<p>My <strong>great</strong> bio example...</p>",
+      "tagTaxonomyIDs": [1234, 5678],
+      "rating": 3.5,
+      "followingCount": 123,
+      "popularityScore": 12.34,
+      "locationID": 1234
+    }
+  ]
 }
